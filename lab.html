@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Page</title>
+
+<style>
+    body {
+        background-image: url("photo.jpg"); 
+        background-size: cover;
+    }
+
+    form {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        width: 400px;
+        margin: auto;
+        margin-top: 10%;
+        position: relative; 
+        
+    }
+ 
+    .box {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+		background-color:dodgerblue;
+		opacity:0.3;
+        top: -20px;
+        right: -20px;
+        z-index: 3;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+		
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: darkblue;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        
+    }
+</style>
+
+</head>
+<body>
+<form>
+    <div class="box"></div>
+
+    <h2>Register</h2>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Create Account</button>
+</form>
+
+</body>
+</html>
